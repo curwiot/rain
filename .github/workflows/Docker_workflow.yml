@@ -31,11 +31,7 @@ jobs:
         npm run build --if-present
       env:
         PORT: 3000
-        DB_USER: ${{ secrets.DB_USER }}
-        HOST: ${{ secrets.HOST }}
-        DATABASE: ${{ secrets.DATABASE }}
-        DB_PORT: ${{ secrets.DB_PORT }}
-        PASSWORD: ${{ secrets.PASSWORD }}
+
 
   docker:
     needs: build

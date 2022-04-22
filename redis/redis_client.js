@@ -34,8 +34,6 @@ class redis_class {
         } catch (error) {
             console.log(error);
         }
-
     }
 }
-
 module.exports = { redis_class }
