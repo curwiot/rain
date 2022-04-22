@@ -1,0 +1,23 @@
+{
+  "name": "rain_analysing-function",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "author": "Rajantha Obeysekara",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "moment-timezone": "^0.5.34",
+    "node-cron": "^3.0.0",
+    "pg": "^8.7.1",
+    "pg-pool": "^3.4.1",
+    "redis": "^4.0.4"
+  }
+}
